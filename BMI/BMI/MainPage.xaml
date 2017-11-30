@@ -10,14 +10,18 @@
             <Label Text="身長を入力してください"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-            
+
             <Entry Text="160.0"
                 VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-
+                HorizontalOptions="CenterAndExpand" 
+                    x:name="height"
+                   />
             <Button Text="BMIを計算"
                 VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+                HorizontalOptions="CenterAndExpand" 
+                    x:name="BMI_Button"
+                    Clicked="BMI_Button_Click"
+                    />
             
         </StackLayout>
         
